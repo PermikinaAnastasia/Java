@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Permikina.ReflectionDemoTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.316 s <<< FAILURE! - in Permikina.ReflectionDemoTest
+testGetAllSuperclasses(Permikina.ReflectionDemoTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[Human, java.lang.Object]> but was:<[Permikina.Human, java.lang.Object]>
+	at Permikina.ReflectionDemoTest.testGetAllSuperclasses(ReflectionDemoTest.java:70)
+
